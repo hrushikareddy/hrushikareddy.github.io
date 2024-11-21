@@ -54,12 +54,9 @@
     height: 100px;
     width: 100px;
     margin: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
     border-radius: 10px;
 }
 .abt img:hover{
-    transform: scale(1.1); 
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
