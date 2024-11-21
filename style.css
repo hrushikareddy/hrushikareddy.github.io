@@ -15,7 +15,7 @@
     padding: 5px;
     justify-content: space-between; /*space between the content*/
 }
-.row1{
+.hom{
     display: flex;
     justify-content: space-around; 
     padding: 20px;
@@ -23,7 +23,7 @@
     align-items: center;
     font-size: larger;
 }
-.row2{
+.proj{
     display: flex;
     justify-content: space-around; 
     padding: 20px;
@@ -31,7 +31,7 @@
     align-items: center;
     background-color: rgb(204, 196, 196);
 }
-.row3{
+.abt{
     display: flex;
   
     padding: 20px;
@@ -39,31 +39,31 @@
     align-items: center;
     background-color:beige;
 }
-.row3 h2{
+.abt h2{
     text-align: center;
     text-decoration: underline;
     margin: 0px;
     padding: 10px;
 }
-.row3 p{
+.abt p{
     text-align: left;
     padding: 20px;
     font-size: large;
 }
-.row3 img{
+.abt img{
     height: 100px;
     width: 100px;
     margin: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
     border-radius: 10px;
 }
-.row3 img:hover{
+.abt img:hover{
     transform: scale(1.1); 
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
-.row4{
+.serv{
     justify-content: space-around;
     padding: 20px;
     height: 500px;
@@ -71,19 +71,19 @@
     background-color:rgb(238, 225, 209);
    
 }
-.row4 h2{
+.serv h2{
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
     padding: 10px;
     margin: 10px;
 }
-.row4h{
+.servh{
     padding: 10px;
     align-items: center;
     display: flex;
 }
-.row4 img{
+.serv img{
     height: 70px;
     width: 70px;
     border-radius: 20px;
@@ -127,7 +127,7 @@ li{
     height: 400px;
     width: 500px;
 }
-.row5{
+.cont{
     display: flex;
     justify-content: space-around; 
     padding: 20px;
@@ -135,7 +135,7 @@ li{
     align-items: center;
     background-color: rgb(185, 198, 208);
 }
-.row5 p{
+.cont p{
     font-size:large;
     text-align: left;
     padding: 20px;
@@ -145,7 +145,7 @@ li{
     border-radius: 10px;
     justify-items: center;
 }
-.row5 h2{
+.cont h2{
     font-weight: bold;
     font-size: xx-large;
     text-align: center;
@@ -154,10 +154,10 @@ li{
     padding: 10px;
     margin: 50px;
 }
-.row5 a{
+.cont a{
     text-decoration: none;
 }
-.row5 a:hover{
+.cont a:hover{
     cursor: pointer;
     text-decoration: underline;
 }
