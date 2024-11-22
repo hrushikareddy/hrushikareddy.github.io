@@ -3,12 +3,12 @@
     scroll-behavior: smooth;
 }
 .container{
-    background-color: whitesmoke;
+    background-color: white;
     margin: 0px;
     
 }
 .row{
-    background-color: lightgray;
+    background-color: rgb(132, 123, 123);
     display: flex;
     position: sticky;
     top: 0px;
@@ -22,6 +22,7 @@
     height: 600px;
     align-items: center;
     font-size: larger;
+    background:linear-gradient(45deg ,#a89e9e 25%,rgba(171, 165, 165, 0.989) 25%,rgb(159, 140, 140) 75%,#9d8787 75%,#c5acac);
 }
 .proj{
     display: flex;
@@ -29,21 +30,48 @@
     padding: 20px;
     height: 600px;
     align-items: center;
-    background-color: rgb(204, 196, 196);
+    background-color:rgb(165, 142, 142);
+}
+.proj h1{
+    color:black;
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+.p1{
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(199, 184, 184);
+    border-radius: 10px;
+
+}
+.p1 h3{
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+.p2{
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(199, 184, 184);
+    border-radius: 10px;
+}
+.p2 h3{
+    padding-bottom: 20px;
+    text-decoration: underline;
 }
 .abt{
     display: flex;
-  
     padding: 20px;
     height: 600px;
     align-items: center;
-    background-color:beige;
+    background:linear-gradient(to right,rgb(144, 123, 123), white);
 }
-.abt h2{
+.abt h1{
     text-align: center;
     text-decoration: underline;
     margin: 0px;
-    padding: 10px;
+    padding-bottom: 20px;
+    color: black;
 }
 .abt p{
     text-align: left;
@@ -65,10 +93,10 @@
     padding: 20px;
     height: 500px;
     align-items: center;
-    background-color:rgb(238, 225, 209);
+    background: linear-gradient(to left,rgb(180, 158, 158), white)
    
 }
-.serv h2{
+.serv h1{
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
@@ -127,10 +155,10 @@ li{
 .cont{
     display: flex;
     justify-content: space-around; 
-    padding: 20px;
+    padding-bottom: 20px;
     height: 600px;
     align-items: center;
-    background-color: rgb(185, 198, 208);
+    background:linear-gradient( rgb(189, 176, 176),lightgrey);
 }
 .cont p{
     font-size:large;
@@ -142,7 +170,7 @@ li{
     border-radius: 10px;
     justify-items: center;
 }
-.cont h2{
+.cont h1{
     font-weight: bold;
     font-size: xx-large;
     text-align: center;

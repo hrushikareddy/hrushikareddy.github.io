@@ -1,8 +1,8 @@
 db.products.insertOne(
     {
-        "name": "Product 2",
-        "desc": "This is the description of product 2",
-        "price": 90,
+        "name": "Product 7",
+        "desc": "This is the description of product 7",
+        "price": 900,
         "url": "https://picsum.photos/id/1/200/200"
     }
 );
@@ -10,15 +10,15 @@ db.products.insertOne(
 db.products.insertMany(
     [
     {
-        "name": "Product 3",
-        "desc": "This is the description of product 3",
-        "price": 70,
+        "name": "Product 8",
+        "desc": "This is the description of product 8",
+        "price": 750,
         "url": "https://picsum.photos/id/2/200/200"
     },
     {
-         "name": "Product 4",
-        "desc": "This is the description of product 4",
-         "price": 95,
+         "name": "Product 9",
+        "desc": "This is the description of product 9",
+         "price": 915,
          "url": "https://picsum.photos/id/4/200/200"
     }
 ]
