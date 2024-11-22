@@ -4,6 +4,12 @@
 }
 .container{
     background-color: white;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     margin: 0px;
     
 }
@@ -19,7 +25,7 @@
     display: flex;
     justify-content: space-around; 
     padding: 20px;
-    height: 600px;
+    height: 100%;
     align-items: center;
     font-size: larger;
     background:linear-gradient(45deg ,#a89e9e 25%,rgba(171, 165, 165, 0.989) 25%,rgb(159, 140, 140) 75%,#9d8787 75%,#c5acac);
@@ -28,7 +34,7 @@
     display: flex;
     justify-content: space-around; 
     padding: 20px;
-    height: 600px;
+    height: 100%;
     align-items: center;
     background:linear-gradient( rgb(175, 149, 149),rgb(232, 211, 185));
 }
@@ -62,7 +68,7 @@
 .abt{
     display: flex;
     padding: 20px;
-    height: 600px;
+    height: 100%;
     align-items: center;
     background-color: rgb(203, 181, 185);
 }
@@ -91,7 +97,7 @@
 .serv{
     justify-content: space-around;
     padding: 20px;
-    height: 500px;
+    height: 100%;
     align-items: center;
     background: linear-gradient(to left,rgb(180, 158, 158), rgb(203, 181, 185))
    
