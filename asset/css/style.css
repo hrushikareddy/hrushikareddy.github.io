@@ -30,7 +30,7 @@
     padding: 20px;
     height: 600px;
     align-items: center;
-    background-color:rgb(165, 142, 142);
+    background:linear-gradient( rgb(175, 149, 149),rgb(232, 211, 185));
 }
 .proj h1{
     color:black;
@@ -41,7 +41,7 @@
 .p1{
     padding: 20px;
     margin: 20px;
-    background-color: rgb(199, 184, 184);
+    background-color: rgb(213, 200, 200);
     border-radius: 10px;
 
 }
@@ -52,7 +52,7 @@
 .p2{
     padding: 20px;
     margin: 20px;
-    background-color: rgb(199, 184, 184);
+    background-color: rgb(213, 200, 200);
     border-radius: 10px;
 }
 .p2 h3{
@@ -64,7 +64,7 @@
     padding: 20px;
     height: 600px;
     align-items: center;
-    background:linear-gradient(to right,rgb(144, 123, 123), white);
+    background-color: rgb(203, 181, 185);
 }
 .abt h1{
     text-align: center;
@@ -93,7 +93,7 @@
     padding: 20px;
     height: 500px;
     align-items: center;
-    background: linear-gradient(to left,rgb(180, 158, 158), white)
+    background: linear-gradient(to left,rgb(180, 158, 158), rgb(203, 181, 185))
    
 }
 .serv h1{
@@ -194,7 +194,7 @@ footer{
     margin-top:  0px;
     margin-bottom: 0px;
     padding: 20px;
-    background-color: lightgrey;
+    background-color: rgb(114, 104, 104);
     font-weight: bold;
     font-size: larger;
     
