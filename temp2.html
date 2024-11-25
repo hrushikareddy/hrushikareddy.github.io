@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const f1 = () =>{
+            // alert("Caution")
+            let str = ""
+            const names = ["Hrushika ", "Naumitha ", "Jasmitha ", "Neha ", "Janu "];
+            names.map((value,index)=>{
+                str = str + value
+            })
+            let m = document.getElementById("msg")
+            m.innerHTML = str
+        }
+    </script>
+</head>
+<body>
+    <button onclick="f1()">Submit</button>
+    <hr>
+    <div id="msg"></div>
+</body>
+</html>
